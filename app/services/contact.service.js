@@ -1,5 +1,4 @@
 const { ObjectId } = require("mongodb");
-const { deleteAll } = require("../controllers/contact.controller");
 
 class ContactService {
     constructor (client) {
